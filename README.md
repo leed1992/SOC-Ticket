@@ -1,4 +1,4 @@
-# 📊 Mott MacDonald SOC Ticket Processor
+# 📊 SOC Ticket Processor
 
 This Streamlit app streamlines the analysis of ServiceNow SOC incident reports and Tenable vulnerability data. It extracts hosts and solutions from incident descriptions, matches them against Autodesk vulnerability data, and highlights matches with color-coded Excel output.
 
