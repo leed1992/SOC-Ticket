@@ -32,3 +32,7 @@ This Streamlit app streamlines the analysis of ServiceNow SOC incident reports a
 
 ```bash
 pip install -r requirements.txt
+
+▶️ Run the App
+bash
+streamlit run app.py
