@@ -5,8 +5,8 @@ from io import BytesIO
 from openpyxl import load_workbook
 from openpyxl.styles import PatternFill
 
-st.set_page_config(page_title="Mott MacDonald SOC ticket Processor", layout="wide")
-st.title("📊 Mott MacDonald SOC ticket Processor")
+st.set_page_config(page_title="SOC ticket Processor", layout="wide")
+st.title("📊SOC ticket Processor")
 
 # === File Upload ===
 incident_file = st.file_uploader("Upload ServiceNow SOC incident Report.xlsx", type=["xlsx"])
@@ -171,3 +171,4 @@ if incident_file and autodesk_file:
         st.error(f"❌ Error during processing: {e}")
 else:
     st.info("📂 Please upload both files to begin.")
+
